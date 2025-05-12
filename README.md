@@ -52,14 +52,13 @@ Home Remodeling
 
 The main function we're going to be looking at is called `CalculateTotalPrice`.
 
-Requirements
+## Requirements
 
 When determining the price for a given part of a kitchen remodel, the software breaks down the project into individual **walls**. Within a given wall, there will be one or more **cabinets**. 
 
 We'll also have to deal with *things on the wall* where there are no cabinets. Then, within a **cabinet**, there may be *some number of features*. 
 
-**Features** is just a generic term for things like **doors**, **shelves**, **handles**, knobs**,** etc. As you can probably guess, there are some exceptions to this **taxonomy**. 
-
+**Features** is just a generic term for things like **doors**, **shelves**, **handles**, **knobs**, etc. As you can probably guess, there are some exceptions to this **taxonomy**. 
 
 
 The `CalculateTotalPrice` method can also be run in one of three different modes based on a parameter that is passed into it. 
