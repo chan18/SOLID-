@@ -29,8 +29,7 @@ principle can apply at multiple different levels.
 
 Examine your classes looking for individual responsibilities or jobs. 
 In the original terms, you'd be *looking for reasons to change*. 
-Each time you find one of these, 
-<u>it's potentially another class that you could extract</u>. 
+Each time you find one of these, ==it's potentially another class that you could extract==. 
 
 
 ## Open Close Principle
