@@ -39,3 +39,10 @@ Examine your classes looking for individual responsibilities or jobs. In the or
 ## Dependency Inversion Principle
 
 # Refactoring to SOLID
+
+leverage principles like SOLID, as we look for ways in which the code could be improved, and we'll identify some code smells for future attention. Then, we'll take what we've learned and develop a plan
+
+refactoring complex legacy code that's mission‑critical to the business planning is an important part of the process.
+
+identify low‑hanging fruit, things that we can do with minimal risk and/or effort that will yield the biggest gains in code quality and maintainability.
+
