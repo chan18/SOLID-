@@ -27,9 +27,7 @@ principle can apply at multiple different levels.
 
 - Favor multiple small classes over fewr, more complex ones.
 
-Examine your classes looking for individual responsibilities or jobs. 
-In the original terms, you'd be *looking for reasons to change*. 
-Each time you find one of these, ==it's potentially another class that you could extract==. 
+Examine your classes looking for individual responsibilities or jobs. In the original terms, you'd be *looking for reasons to change*. Each time you find one of these, <ins>it's potentially another class that you could extract</ins>. 
 
 
 ## Open Close Principle
