@@ -46,3 +46,28 @@ leverage principles like **SOLID**, as we look for ways in which the code could 
 
 identify low‑hanging fruit, things that we can do with minimal risk and/or effort that will yield the biggest gains in code quality and maintainability.
 
+## Domain
+
+Home Remodeling
+
+The main function we're going to be looking at is called `CalculateTotalPrice`.
+
+Requirements
+
+When determining the price for a given part of a kitchen remodel, the software breaks down the project into individual **walls**. Within a given wall, there will be one or more **cabinets**. 
+
+We'll also have to deal with *things on the wall* where there are no cabinets. Then, within a **cabinet**, there may be *some number of features*. 
+
+**Features** is just a generic term for things like **doors**, **shelves**, **handles**, knobs**,** etc. As you can probably guess, there are some exceptions to this **taxonomy**. 
+
+
+
+The `CalculateTotalPrice` method can also be run in one of three different modes based on a parameter that is passed into it. 
+
+- It can show a real‑time quote on the kitchen builder web application. This is the default behavior and is used to reprice a kitchen remodel every time changes are made.
+- It can also be used to place an order for the current configuration. Once the customer has agreed to move forward, this is the functionality that creates the order. Finally, 
+- it can generate a text report, summarizing the details of the configuration and its components. This may include specific information about customization in addition to serving as a parts list for the contractor. 
+- In addition to the parts and quantities, it also contains information about pricing and measurements.
+
+
+
